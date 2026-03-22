@@ -1,18 +1,18 @@
-import { Bot, Layers, Users } from "lucide-react";
+import { Bot, Layers, Users, MessageCircle } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const services = [
   {
-    icon: Bot,
-    title: "Agentes Conversacionais",
+    icon: Layers,
+    title: "Canal Único Omnichannel",
     description:
-      "Chatbots e assistentes virtuais com IA que entendem contexto, resolvem demandas e escalam conversas de forma inteligente.",
+      "WhatsApp, Instagram, Webchat e Telegram — todos os canais unificados em uma só interface. Seus clientes escolhem onde falar; sua equipe responde de um único lugar, sem perder contexto.",
   },
   {
-    icon: Layers,
-    title: "Plataforma Omnichannel",
+    icon: Bot,
+    title: "Agente Atena (IA)",
     description:
-      "Unifique WhatsApp, Instagram, e-mail e chat em uma só interface. Histórico completo, sem perder nenhuma conversa.",
+      "Nossa inteligência artificial faz o trabalho de vários atendentes humanos. A Atena resolve demandas de forma autônoma e só transfere para um especialista quando o assunto exige atenção humana.",
   },
   {
     icon: Users,
