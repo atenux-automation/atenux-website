@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo-atenux.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -8,8 +9,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b">
       <div className="container mx-auto flex items-center justify-between h-16 px-6">
-        <a href="#" className="text-xl font-bold tracking-tight text-primary">
-          Atenux
+        <a href="#" className="flex items-center gap-2">
+          <img src={logo} alt="Atenux" className="h-8 w-8" />
+          <span className="text-xl font-bold tracking-tight text-primary">Atenux</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">

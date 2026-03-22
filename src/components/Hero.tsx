@@ -22,11 +22,10 @@ const Hero = () => {
             Tecnologia que conecta
           </p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.08] tracking-tight text-white reveal reveal-delay-1">
-            Agentes inteligentes para conversas que geram resultados
+            Conheça a Atena — sua agente de IA que atende como gente
           </h1>
           <p className="text-lg text-white/70 max-w-lg leading-relaxed reveal reveal-delay-2">
-            CRM, atendimento omnichannel e agentes conversacionais com IA — tudo
-            integrado para transformar a experiência do seu cliente.
+            Unifique WhatsApp, Instagram, Webchat e Telegram em um só lugar. A Atena cuida do atendimento e só transfere quando precisa de um especialista.
           </p>
           <div className="flex flex-wrap gap-4 reveal reveal-delay-3">
             <Button variant="hero" size="lg">
