@@ -1,4 +1,4 @@
-import { Mail, Phone, User } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import logo from "@/assets/logo-atenux.png";
 
 const Footer = () => (
@@ -19,12 +19,8 @@ const Footer = () => (
           <h4 className="text-sm font-semibold text-foreground">Contato</h4>
           <ul className="space-y-3 text-sm text-muted-foreground">
             <li className="flex items-center gap-2">
-              <User className="w-4 h-4 text-accent shrink-0" />
-              Anderson Pimentel
-            </li>
-            <li className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-accent shrink-0" />
-              <a href="tel:+5592993531716" className="hover:text-foreground transition-colors">(92) 99353-1716</a>
+              <a href="tel:+5511936190935" className="hover:text-foreground transition-colors">(11) 93619-0935</a>
             </li>
             <li className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-accent shrink-0" />
