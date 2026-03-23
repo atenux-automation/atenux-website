@@ -36,13 +36,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Create SPA route files for GitHub Pages
-        run: |
-          cp dist/index.html dist/404.html
-          mkdir -p dist/privacy dist/terms dist/data-deletion
-          cp dist/index.html dist/privacy/index.html
-          cp dist/index.html dist/terms/index.html
-          cp dist/index.html dist/data-deletion/index.html
+      - name: Copy index.html to 404.html for SPA routing
+        run: cp dist/index.html dist/404.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
